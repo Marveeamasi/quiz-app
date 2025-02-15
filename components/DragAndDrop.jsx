@@ -71,8 +71,8 @@ export default function DragAndDrop({ question, correctOrder, onAnswer }) {
           <div
             key={index}
             id={`drag-item-${index}`}
-            className={`p-4 rounded-lg cursor-move bg-gray-100 transition-all duration-300 ${
-              draggedIndex === index ? "bg-[black] text-[white]" : ""
+            className={`p-4 rounded-lg cursor-move transition-all duration-300 ${
+              draggedIndex === index ? "bg-customDark text-[white]" : "bg-gray-100"
             }`}
             draggable
             onDragStart={(e) => handleDragStart(e, index)}
