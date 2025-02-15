@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  user-select: none;
+}
+
+.purpleBg{
+  background-color: #5122a2;
+}
+
+.purpleText{
+    color: #5122a2;
+  }
+  
+
