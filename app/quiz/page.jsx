@@ -72,7 +72,7 @@ export default function Quiz() {
   }; 
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen h-screen overflow-y-scroll bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden bg-gray-100 p-4 border-box">
       <QuizProgress progress={progress} />
       <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-md">
         {currentQuestion.type === 'multiple-choice' ? (
